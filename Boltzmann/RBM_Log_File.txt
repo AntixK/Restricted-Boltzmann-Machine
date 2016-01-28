@@ -1,0 +1,91 @@
+
+ Restricted Boltzmann Machine 
+
+ Log Created on : 20-1-2016 11:44:51 Local Time 
+
+ Initializing Restricted Boltzmann Machine...Success
+
+ Number of Hidden Neurons  : 2
+ Number of Visible Neurons : 6
+ Learning Rate             : 0.1
+
+ Input Data Dimensions: 6 * 6
+ RBM Data Dimensions:6 * 6
+ Weight dimensions: 7 * 3
+
+ Initial Data 
+1  1  1  0  0  0  
+1  0  1  0  0  0  
+1  1  1  0  0  0  
+0  0  1  1  1  0  
+0  0  1  1  0  0  
+0  0  1  1  1  0  
+
+ RBM Data + Bias Dimensions: 6 * 7
+
+ RBM Data with Biases 
+1  1  1  1  0  0  0  
+1  1  0  1  0  0  0  
+1  1  1  1  0  0  0  
+1  0  0  1  1  1  0  
+1  0  0  1  1  0  0  
+1  0  0  1  1  1  0  
+
+ Weights & Biases 
+0.0000000e+00  0.0000000e+00  0.0000000e+00  
+0.0000000e+00  4.0552995e-02  3.1019014e-02  
+0.0000000e+00  2.8733176e-02  8.8946193e-02  
+0.0000000e+00  1.6180913e-02  5.7078767e-02  
+0.0000000e+00  7.7843565e-02  1.3641774e-03  
+0.0000000e+00  7.4861902e-02  6.7625964e-02  
+0.0000000e+00  6.3212991e-02  6.3954586e-02  
+
+ Pos_Hidden_Activation dimension : 6 * 3
+ Neg_Hidden_Activation dimension : 6 * 3
+ Neg_Visible_Activation dimension: 6 * 7
+
+ Pos_Hidden_Probs dimension : 6 * 3
+ Neg_Hidden_Probs dimension : 6 * 3
+ Neg_Visible_Probs dimension: 6 * 7
+
+ Pos_Associations dimension : 7 * 3
+ Neg_Associations dimension : 7 * 3
+
+ Pos_Hidden_States dimension : 6 * 3
+
+ Error dimensions: 1 * 10
+
+ Epoch : 1
+
+ Epoch : 2
+
+ Epoch : 3
+
+ Epoch : 4
+
+ Epoch : 5
+
+ Epoch : 6
+
+ Epoch : 7
+
+ Epoch : 8
+
+ Epoch : 9
+
+ Epoch : 10
+
+ Training Complete 
+
+ Elpased Time : 5:30:6
+ Error 
+10.67023
+9.75031
+8.07669
+7.04180
+6.38486
+6.58687
+6.11840
+6.04951
+5.90305
+5.71605
